@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form id="form" class="needs-validation" novalidate>
+            <div class="form-control">
+                <input class="firstName" id="firstName" type="text" value="" required>
+                <label>First Name</label>
+                <div class="invalid-feedback">
+                    Name is required.
+                </div>
+            </div>
+            <div class="form-control">
+                <input class="lastName" id="lastName" type="text" value="" required>
+                <label>Last Name</label>
+            </div>
+            <div class="form-control">
+                <input class="email" id="email" type="email" value="" required>
+                <label>Email</label>
+            </div>
+            <div class="form-control">
+                <input class="password" id="password" type="password" value="" required>
+                <label>Password</label>
+            </div>
+            <div class="form-control">
+                <input class="confirmPassword" id="confirmPassword" type="password" value="" required>
+                <label>Confirm Password</label>
+            </div>
+
+            <button class="btn" id="btn-submit" type="submit"> SIGN UP</button>
+
+            <p class="text">Already have an account <a href="/signIn/index.html">SIGN IN</a> </p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
